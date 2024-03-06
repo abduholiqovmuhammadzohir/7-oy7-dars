@@ -12,10 +12,11 @@ function App() {
               <h3>...</h3>
             </div>
             <div className={styles.body_inputs}>
-              <input type="text" placeholder='Enter a title for this card...' />
+              <textarea id="story" name="story" rows="5" cols="41" placeholder=' Enter a title for this card...'>
+              </textarea>
             </div>
             <div className={styles.body_add}>
-              <h3  className={styles.card}>+ Add a card</h3>
+              <h3 className={styles.card}>+ Add a card</h3>
               <button>Add card</button>
             </div>
           </div>
@@ -25,10 +26,11 @@ function App() {
               <h3>...</h3>
             </div>
             <div className={styles.body_inputs}>
-              <input type="text" placeholder='Enter a title for this card...' />
+              <textarea id="story" name="story" rows="5" cols="41" placeholder=' Enter a title for this card...'>
+              </textarea>
             </div>
             <div className={styles.body_add}>
-              <h3  className={styles.card}>+ Add a card</h3>
+              <h3 className={styles.card}>+ Add a card</h3>
               <button>Add card</button>
             </div>
           </div>
@@ -38,7 +40,8 @@ function App() {
               <h3>...</h3>
             </div>
             <div className={styles.body_inputs}>
-              <input type="text" placeholder='Enter a title for this card...' />
+              <textarea id="story" name="story" rows="5" cols="41" placeholder=' Enter a title for this card...'>
+              </textarea>
             </div>
             <div className={styles.body_add}>
               <h3 className={styles.card}>+ Add a card</h3>

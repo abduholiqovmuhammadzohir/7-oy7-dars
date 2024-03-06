@@ -33,18 +33,15 @@
     align-items: center;
 }
 
-.body_inputs input {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    padding-bottom: 40px;
-    padding-right: 125px;
-    box-shadow: 1px 1px 7px 0px rgba(151, 151, 151, 0.75);
+.body_inputs textarea{
     margin-top: 20px;
+    border-radius:5px;
+    resize: none;
 }
 
-.body_inputs input::placeholder {
+.body_inputs textarea::placeholder {
     font-size: 15px;
+    padding: 10px;
     font-weight: 500;
 }
 
